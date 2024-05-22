@@ -1,8 +1,7 @@
-import express from 'express'
 import connectDB from "./db/index.js";
 import dotenv from 'dotenv'
+import { app } from './app.js'
 
-const app = express()
 
 
 
